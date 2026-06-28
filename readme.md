@@ -2,6 +2,8 @@
 
 The code used in the paper: [Direct power spectral density estimation from structure functions without Fourier transforms](https://doi.org/10.1063/5.0310561)
 
+**Please see my Python package [kea](https://github.com/mab68/kea) for an updated and detailed implementation.**
+
 Structure function calculation is availble via `mpi_sf.py` with naively implemented multi-processing.
 
 Equivalent spectrum calculation (both "uncorrected" and "debiased") and additional required/recommended functions are supplied in `equiv_spectrum.py`.
